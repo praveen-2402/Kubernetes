@@ -32,3 +32,21 @@ Additional points discussed
 * what is a replica and why do we need a replication controller. & ReplicaSet
 * Deployments
 * NAMESPACES
+
+----------
+Configuration & Commands in Kubernetes
+-----------
+
+
+
+
+
+---------------
+Editing of PODS & DEPLOYMENTS
+----------------
+You can't edit the POD directly, you have to edit the raw definition
+File or preparing a edited pod definition by kubctl edit pod name
+
+But you can edit a pod from deployment, because pods are children
+Of Deployment.
+
