@@ -37,9 +37,7 @@ Additional points discussed
 Configuration & Commands in Kubernetes
 -----------
 
-
-
-
+Here we will discuss about the docker how execute any process and how that was mapped in the pods scenario.
 
 ---------------
 Editing of PODS & DEPLOYMENTS
@@ -49,4 +47,9 @@ File or preparing a edited pod definition by kubctl edit pod name
 
 But you can edit a pod from deployment, because pods are children
 Of Deployment.
+
+----------------------
+CONFIG MAPS
+---------------------
+How to send the environment values required for any container using the env, single env & volumes.
 
